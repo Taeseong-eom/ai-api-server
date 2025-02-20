@@ -7,6 +7,10 @@ WORKDIR /app
 
 # 필요한 Python 스크립트를 이미지에 추가
 COPY main.py /app/
+COPY model.py /app/
+
+RUN pip install fastapi uvicorn
+
 
 # 서버가 실행될 때 사용되는 포트
 EXPOSE 3000

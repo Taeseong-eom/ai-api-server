@@ -1,5 +1,6 @@
 from typing import Union
 from fastapi import FastAPI
+import uvicorn
 
 import model # model.py 불러오기
 
