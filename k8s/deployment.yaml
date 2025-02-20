@@ -14,4 +14,6 @@ spec:
       containers:
         - name: krampoline
           # 여러분의 image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_c489cb01e2f0
+			image: krmp-d2hub-idock.9rum.cc/dev-test/repo_c489cb01e2f0:latest
+          	ports:
+            	- containerPort: 3000

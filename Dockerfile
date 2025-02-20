@@ -9,7 +9,7 @@ WORKDIR /app
 COPY main.py /app/
 COPY model.py /app/
 
-RUN pip install fastapi uvicorn
+RUN pip install numpy fastapi uvicorn
 
 
 # 서버가 실행될 때 사용되는 포트
