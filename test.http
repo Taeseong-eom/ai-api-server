@@ -1,0 +1,5 @@
+POST https://effective-couscous-4r9r79r56pfq4qp-8000.app.github.dev/train
+
+### 
+
+GET https://effective-couscous-4r9r79r56pfq4qp-8000.app.github.dev/predict/left/1/right/1
